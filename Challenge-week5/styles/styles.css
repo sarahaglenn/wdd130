@@ -1,0 +1,15 @@
+#title_img {
+    width: 100%;
+}
+.icon {
+    border-radius: 50%;
+    width: 20%;
+    border: 10px solid rgb(63, 62, 62);
+}
+footer {
+    text-align: center;
+    background-color: gray;
+}
+main {
+    margin: 0px;
+}
