@@ -192,6 +192,75 @@ footer .social img {
     grid-column: 1/11;
     grid-row: 4/9;
 }
+/*FAQ pages styles*/
+#adventure-msg h1, #adventure-msg h4 {
+    text-align: center;
+    color: black;
+}
+#adventure-img {
+    width: 100%;
+    opacity: 0.6;
+}
+#adventure {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#adventure-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#adventure-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 50px;
+    margin-top: 100px;
+}
+.FAQs-title {
+    font-family: 'Merienda', Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    margin-top: 10px;
+}
+.oars-img {
+    border-radius: 25px;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+}
+.collapsible {
+    background-color: #095256b7;
+    font-family: 'Merienda', Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    width: 75%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+  }
+.kid {
+    float: right;
+    border: 10px solid #C46726;
+    width: 20%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 300px;
+}
+.content {
+    width: 73%;
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    background-color: #7c98b359;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
