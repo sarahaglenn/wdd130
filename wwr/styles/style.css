@@ -34,7 +34,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #095256ad;
+    background-color: #095256c5;
     display: grid;
     grid-template-columns: 150px auto;
 }
