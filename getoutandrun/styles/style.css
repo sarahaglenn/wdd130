@@ -1,9 +1,8 @@
-/* --primary-color: #0D3B5B;
---secondary-color: #97BDFC;
---accent1-color: #C7F8DB;
---accent2-color: #700548;
---accent3-color: #FFA69E; */
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Open+Sans&family=Raleway+Dots&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 header {
     background-color: #0D3B5B;
     padding: 25px 50px;
@@ -105,4 +104,66 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+/* Testimonials page styles */
+#banner {
+    position: relative;
+    text-align: center;
+}
+.banner-img {
+    width: 100%;
+}
+.banner-title {
+    font-size: 3.2em;
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    transform: translate(-7%, -50%);  
+}
+#banner p {
+    padding: 20px;
+    font-size: 1.3em;
+}
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .7fr 1fr .7fr;
+}
+.trees-img, .couple-img {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+.jenny, .amber, .travis, .sammy {
+    margin: 0 auto;
+    padding: 15px;
+    align-self: center;
+    padding-left: 15px;
+    max-width: 80%;
+}
+.button-box {
+    text-align: center;
+    margin-top: 30px;
+}
+.started {
+    background-color: #700548;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    align-content: center;
+}
+.started:hover {
+    background-color: #C7F8DB;
+    color: #0D3B5B;
+}
+.travis {
+    border: 3px dashed #C7F8DB;
+}
+h4 {
+    color: #0D3B5B;
+    margin-left: 30px;
+    font-size: 1.2em;
 }
